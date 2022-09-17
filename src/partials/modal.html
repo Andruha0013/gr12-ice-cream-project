@@ -1,0 +1,153 @@
+<!--modal-form---buy now-->
+<div class="mpdal-backdrop">
+    <div class="modal-window" id="buy_now_form">
+        <button id="close-btn" class="modal-window__close-btn">x</button>
+        <p class="modal-window__header">Buy now</p>
+        <form name="buy_now">
+            <ul class="modal-product list">
+                <li class="modal-product__item">
+                    <label>
+                        <input class="modal-product__check" type="checkbox" id="cream" name="product_cream">
+                        <div class="modal-product-img__bgbox"><img class="modal-product-img" src="./images/modal/buy/modal-cream-m.png" alt="ice cream" width="132"></div>
+                        <p class="modal-product__name">Ice cream</p>
+                    </label>
+                </li>
+                <li class="modal-product__item">
+                    <label>
+                        <input class="modal-product__check" type="checkbox" id="cream" name="product_cream">
+                        <img class="modal-product-img" src="./images/modal/buy/modal-cofee-m.png" alt="ice cream" width="132">
+                        <p class="modal-product__name">Ice coffee</p>
+                    </label>
+                </li>
+                <li class="modal-product__item">
+                    <label>
+                        <input class="modal-product__check" type="checkbox" id="cream" name="product_cream">
+                        <img class="modal-product-img" src="./images/modal/buy/modal-milkshake-m.png" alt="ice cream" width="132">
+                        <p class="modal-product__name">Milkshake</p>
+                    </label>
+                </li>
+            </ul>
+            <ul class="modal-user-info list">
+                <li class="modal-user-info__item">
+                    <input class="modal-user-info__input" id="buyer_name" name="buyer_name" type="text" placeholder="Name">
+                </li>
+                <li class="modal-user-info__item">
+                    <input class="modal-user-info__input" id="buyer_phone" name="buyer_phone" type="tel" placeholder="Phone">
+                </li>
+                <li class="modal-user-info__item">
+                    <textarea class="modal-user-info__input" id="buyer_comment" name="buyer_comment" placeholder="Comment"></textarea>
+                </li>
+            </ul>
+            <button type="submit" class="modal-submit-btn" name="submit_btn" value="buy-now">Submit</button>
+        </form>
+    </div>
+    <!--Modal ingredients-->
+    <div class="modal-window" id="Modal_ingredients">
+        <button id="close-btn" class="modal-window__close-btn">x</button>
+        <p class="modal-window__header">Chololate icecream</p>
+        <p>
+            <img class="modal-product-img" src="./images/modal/ingredients/img-1.png" alt="ice cream" width="132">
+        </p>
+        <ul class="modal-energy list">
+            <li class="modal-energy__item">
+                <p class="modal-energy__val">320</p>
+                <p class="modal-energy__measures">kcal</p>
+            </li>
+            <li class="modal-energy__item">
+                <p class="modal-energy__val">4g</p>
+                <p class="modal-energy__measures">Prote...</p>
+            </li>
+            <li class="modal-energy__item">
+                <p class="modal-energy__val">8,2g</p>
+                <p class="modal-energy__measures">Fats</p>
+            </li>
+            <li class="modal-energy__item">
+                <p class="modal-energy__val">40,4g</p>
+                <p class="modal-energy__measures">Carbs</p>
+            </li>
+        </ul>
+        <p>Ingredients</p>
+        <ul class="ingredients-list list">
+            <li class="ingredients-list__item">
+                <span class="ingredients-list__val-name">Milk</span><span class="ingredients-list__val">100ml</span>
+            </li>
+            <li class="ingredients-list__item">
+                <span class="ingredients-list__val-name">Belgian chocolate</span><span class="ingredients-list__val">20g</span>
+            </li>
+            <li class="ingredients-list__item">
+                <span class="ingredients-list__val-name">Cream</span><span class="ingredients-list__val">150 ml</span>
+            </li>
+            <li class="ingredients-list__item">
+                <span class="ingredients-list__val-name">Cocoa powder</span><span class="ingredients-list__val">30g</span>
+            </li>
+            <li class="ingredients-list__item">
+                <span class="ingredients-list__val-name">Sugar</span><span class="ingredients-list__val">40g</span>
+            </li>
+            <li class="ingredients-list__item">
+                <span class="ingredients-list__val-name">Vanilla sugar</span><span class="ingredients-list__val">10g</span>
+            </li>
+        </ul>
+        <form name="Ingredients">
+            <ul class="modal-user-info list">
+                <li class="modal-user-info__item">
+                    <input class="modal-user-info__input" id="user_name" name="user_name" type="text" placeholder="Name">
+                </li>
+                <li class="modal-user-info__item">
+                    <input class="modal-user-info__input" id="user_phone" name="user_phone" type="tel" placeholder="Phone">
+                </li>
+                <li class="modal-user-info__item">
+                    <textarea class="modal-user-info__input" id="user_comment" name="user_comment" placeholder="Comment"></textarea>
+                </li>
+            </ul>
+            <button type="submit" class="modal-submit-btn" name="submit_btn" value="Ingredients">Submit</button>
+        </form>
+    </div>
+    <!--  Franchise-modal -->
+    <div class="modal-window" id="Franchise_modals">
+        <button id="close-btn" class="modal-window__close-btn">x</button>
+        <p class="modal-window__header">Thank you for your interest in owning an Ice Cream shop</p>
+        <p class="modal-window__main-text">
+            Due to the overwhelming volume of franchise requests we are not accepting new franchisee applications at this time. Once the application process resumes, we will contact you for further information. Please fill out the contact information below and we will reach out for additional information. We appreciate your patience.
+        </p>
+        <form name="Franchise_modal">
+            <ul class="modal-user-info list">
+                <li class="modal-user-info__item">
+                    <input class="modal-user-info__input" id="user_name" name="user_name" type="text" placeholder="Name">
+                </li>
+                <li class="modal-user-info__item">
+                    <input class="modal-user-info__input" id="user_phone" name="user_phone" type="tel" placeholder="Phone">
+                </li>
+                <li class="modal-user-info__item">
+                    <input class="modal-user-info__input" id="user_mail" name="user_mail" type="email" placeholder="Email">
+                </li>
+                <li class="modal-user-info__item">
+                    <textarea class="modal-user-info__input" id="user_comment" name="user_comment" placeholder="Comment"></textarea>
+                </li>
+            </ul>
+            <button type="submit" class="modal-submit-btn" name="submit_btn" value="Franchise_modals">Submit</button>
+        </form>
+    </div>
+    <!--Read-more-modal-->
+    <div class="modal-window" id="Read_more_modal">
+        <button id="close-btn" class="modal-window__close-btn">x</button>
+        <p class="modal-window__header">How it’s made?</p>
+        <p class="modal-window__media-content">
+            <video width="400" height="300" controls="controls" poster="">
+                <source src="./images/modal/read-more/video-360.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+                Тег video не поддерживается вашим браузером. 
+                <a href="video/duel.mp4">Скачайте видео</a>.
+            </video>
+        </p>
+        <p class="modal-window__main-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+        </p>
+    </div>
+    <!--Our-location-modal-->
+    <div class="modal-window" id="Read_more_modal">
+        <button id="close-btn" class="modal-window__close-btn">x</button>
+        <p class="modal-window__header">How it’s made?</p>
+        <p class="modal-window__media-content" id="map">
+        </p>
+        <button type="submit" class="modal-submit-btn" name="submit_btn" value="Location_modals">Open map</button>
+    </div>
+</div>
